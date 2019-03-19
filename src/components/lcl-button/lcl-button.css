@@ -1,0 +1,100 @@
+:host {
+  /* Component styles go here */
+
+  /**
+   * @prop --lcl-background: Background of the button
+   * @prop --lcl-background-activated: Background of the button when activated
+   * @prop --lcl-background-focused: Background of the button when focused
+   *
+   * @prop --lcl-color: Text color of the button
+   * @prop --lcl-color-activated: Text color of the button when activated
+   * @prop --lcl-color-focused: Text color of the button when focused
+   *
+   * @prop --lcl-transition: Transition of the button
+   *
+   * @prop --lcl-border-radius: Border radius of the button
+   * @prop --lcl-border-width: Border width of the button
+   * @prop --lcl-border-style: Border style of the button
+   * @prop --lcl-border-color: Border color of the button
+   *
+   * @prop --lcl-ripple-color: Color of the button ripple effect
+   *
+   * @prop --lcl-box-shadow: Box shadow of the button
+   * @prop --lcl-opacity: Opacity of the button
+   *
+   * @prop --lcl-padding-top: Padding top of the button
+   * @prop --lcl-padding-end: Padding end of the button
+   * @prop --lcl-padding-bottom: Padding bottom of the button
+   * @prop --lcl-padding-start: Padding start of the button
+   */
+  --lcl-button-width: 100px;
+  --lcl-button-height: 50px;
+  /* display: block; */
+
+  --lcl-background: "";
+  --lcl-background-activated: "";
+  --lcl-background-focused: "";
+  --lcl-color: "";
+  --lcl-color-activated: "";
+  --lcl-color-focused: "";
+  --lcl-transition: "";
+  --lcl-border-radius: "";
+  --lcl-border-width: 2px;
+  --lcl-border-style: solid;
+  --lcl-border-color: blue;
+  --lcl-ripple-color: "";
+  --lcl-box-shadow: "";
+  --lcl-opacity: "";
+  --lcl-padding-top: "";
+  --lcl-padding-end: "";
+  --lcl-padding-bottom: "";
+  --lcl-padding-start: "";
+  --lcl-button-width: "";
+  --lcl-button-height: "";
+  --lcl-button-minwidth: "";
+  --lcl-icon-color: "";
+  display: grid;
+}
+/*
+:host(.lcl-button) {
+  display: block;
+} */
+
+/*
+:host(.lcl-button) {
+  border: var(--lcl-border-width);
+} */
+
+.lcl-button {
+  display: inline-flex;
+  border-style: var(--lcl-border-style);
+  border-width: var(--lcl-border-width);
+  border-color: var(--lcl-border-color);
+  width: var(--lcl-button-width);
+  height: var(--lcl-button-height);
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+
+ion-icon {
+  transform: rotate(45deg);
+}
+
+.lcl-button-outline {
+}
+
+.lcl-button-warning {
+}
+
+.lcl-button-small {
+}
+
+.lcl-button-large {
+}
+
+.lcl-button-round {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
