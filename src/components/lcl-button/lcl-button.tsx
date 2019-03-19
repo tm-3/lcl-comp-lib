@@ -1,4 +1,4 @@
-import { Component, Prop } from "@stencil/core";
+import { Component, Prop } from '@stencil/core';
 // import { ControlBase } from '../common/ControlBase';
 
 /**
@@ -6,9 +6,9 @@ import { Component, Prop } from "@stencil/core";
  * @slot icon-left - Name of the icon to be placed left of the default slot
  */
 @Component({
-  tag: "lcl-button",
-  styleUrls: ["lcl-button.css"],
-  shadow: true
+  tag: 'lcl-button',
+  styleUrls: ['lcl-button.css'],
+  shadow: true,
 })
 export class LclButton {
   /**

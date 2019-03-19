@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-control-group",
-  styleUrl: "lcl-control-group.css",
-  shadow: true
+  tag: 'lcl-control-group',
+  styleUrl: 'lcl-control-group.css',
+  shadow: true,
 })
 export class LclControlGroup {
   render() {

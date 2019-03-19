@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-list",
-  styleUrl: "lcl-list.css",
-  shadow: true
+  tag: 'lcl-list',
+  styleUrl: 'lcl-list.css',
+  shadow: true,
 })
 export class LclList {
   render() {

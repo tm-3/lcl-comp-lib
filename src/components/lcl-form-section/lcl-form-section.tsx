@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-form-section",
-  styleUrl: "lcl-form-section.css",
-  shadow: true
+  tag: 'lcl-form-section',
+  styleUrl: 'lcl-form-section.css',
+  shadow: true,
 })
 export class LclFormSection {
   render() {

@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-image",
-  styleUrl: "lcl-image.css",
-  shadow: true
+  tag: 'lcl-image',
+  styleUrl: 'lcl-image.css',
+  shadow: true,
 })
 export class LclImage {
   render() {

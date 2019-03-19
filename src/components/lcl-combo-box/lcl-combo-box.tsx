@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-combo-box",
-  styleUrl: "lcl-combo-box.css",
-  shadow: true
+  tag: 'lcl-combo-box',
+  styleUrl: 'lcl-combo-box.css',
+  shadow: true,
 })
 export class LclComboBox {
   render() {

@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-dial",
-  styleUrl: "lcl-dial.css",
-  shadow: true
+  tag: 'lcl-dial',
+  styleUrl: 'lcl-dial.css',
+  shadow: true,
 })
 export class LclDial {
   render() {

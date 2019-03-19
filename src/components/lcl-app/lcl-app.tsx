@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-app",
-  styleUrl: "lcl-app.css",
-  shadow: true
+  tag: 'lcl-app',
+  styleUrl: 'lcl-app.css',
+  shadow: true,
 })
 export class LclApp {
   render() {

@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-data-table",
-  styleUrl: "lcl-data-table.css",
-  shadow: true
+  tag: 'lcl-data-table',
+  styleUrl: 'lcl-data-table.css',
+  shadow: true,
 })
 export class LclDataTable {
   render() {

@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-chip",
-  styleUrl: "lcl-chip.css",
-  shadow: true
+  tag: 'lcl-chip',
+  styleUrl: 'lcl-chip.css',
+  shadow: true,
 })
 export class LclChip {
   render() {

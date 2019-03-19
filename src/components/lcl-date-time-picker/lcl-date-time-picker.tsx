@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-date-time-picker",
-  styleUrl: "lcl-date-time-picker.css",
-  shadow: true
+  tag: 'lcl-date-time-picker',
+  styleUrl: 'lcl-date-time-picker.css',
+  shadow: true,
 })
 export class LclDateTimePicker {
   render() {

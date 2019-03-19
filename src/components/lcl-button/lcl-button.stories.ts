@@ -28,5 +28,5 @@ stories
     return `<lcl-button>${buttonText}</lcl-button>`;
   })
   .add('LCL Button - All Options', () => {
-    return '<lcl-button></lcl-button>';
+    return `<lcl-button>${buttonText}</lcl-button>`;
   });

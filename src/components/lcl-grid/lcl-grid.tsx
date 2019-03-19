@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-grid",
-  styleUrl: "lcl-grid.css",
-  shadow: true
+  tag: 'lcl-grid',
+  styleUrl: 'lcl-grid.css',
+  shadow: true,
 })
 export class LclGrid {
   render() {

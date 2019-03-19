@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-nav-drawer",
-  styleUrl: "lcl-nav-drawer.css",
-  shadow: true
+  tag: 'lcl-nav-drawer',
+  styleUrl: 'lcl-nav-drawer.css',
+  shadow: true,
 })
 export class LclNavDrawer {
   render() {

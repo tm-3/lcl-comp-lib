@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-toolbar",
-  styleUrl: "lcl-toolbar.css",
-  shadow: true
+  tag: 'lcl-toolbar',
+  styleUrl: 'lcl-toolbar.css',
+  shadow: true,
 })
 export class LclToolbar {
   render() {

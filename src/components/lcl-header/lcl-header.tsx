@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-header",
-  styleUrl: "lcl-header.css",
-  shadow: true
+  tag: 'lcl-header',
+  styleUrl: 'lcl-header.css',
+  shadow: true,
 })
 export class LclHeader {
   render() {

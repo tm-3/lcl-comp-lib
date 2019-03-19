@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-radio-button",
-  styleUrl: "lcl-radio-button.css",
-  shadow: true
+  tag: 'lcl-radio-button',
+  styleUrl: 'lcl-radio-button.css',
+  shadow: true,
 })
 export class LclRadioButton {
   render() {

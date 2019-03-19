@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-switch",
-  styleUrl: "lcl-switch.css",
-  shadow: true
+  tag: 'lcl-switch',
+  styleUrl: 'lcl-switch.css',
+  shadow: true,
 })
 export class LclSwitch {
   render() {

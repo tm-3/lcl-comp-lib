@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-checkbox",
-  styleUrl: "lcl-checkbox.css",
-  shadow: true
+  tag: 'lcl-checkbox',
+  styleUrl: 'lcl-checkbox.css',
+  shadow: true,
 })
 export class LclCheckbox {
   render() {

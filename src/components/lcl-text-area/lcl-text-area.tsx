@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-text-area",
-  styleUrl: "lcl-text-area.css",
-  shadow: true
+  tag: 'lcl-text-area',
+  styleUrl: 'lcl-text-area.css',
+  shadow: true,
 })
 export class LclTextArea {
   render() {

@@ -1,35 +1,35 @@
-import { Config } from "@stencil/core";
-import { stylus } from "@stencil/stylus";
+import { Config } from '@stencil/core';
+import { stylus } from '@stencil/stylus';
 
 export const config: Config = {
-  namespace: "lcl",
+  namespace: 'lcl',
   outputTargets: [
     {
-      type: "docs"
+      type: 'docs',
     },
     {
-      type: "dist"
+      type: 'dist',
     },
     {
-      type: "stats"
+      type: 'stats',
     },
     {
-      type: "www",
-      serviceWorker: null // disable service workers
-    }
+      type: 'www',
+      serviceWorker: null, // disable service workers
+    },
   ],
-  globalScript: "src/globals/app.ts",
-  globalStyle: "src/globals/variables.css",
+  globalScript: 'src/globals/app.ts',
+  globalStyle: 'src/globals/variables.css',
   plugins: [
     stylus({
-      includePaths: ["src/globals"],
-      injectGlobalPaths: ["src/globals/app.styl", "src/globals/mixins.styl"]
-    })
+      includePaths: ['src/globals'],
+      injectGlobalPaths: ['src/globals/app.styl', 'src/globals/mixins.styl'],
+    }),
   ],
   devServer: {
     port: 3333,
-    openBrowser: false
+    openBrowser: false,
   },
-  tsconfig: "./tsconfig.json",
-  excludeSrc: ["**/.test*.*"]
+  tsconfig: './tsconfig.json',
+  excludeSrc: ['**/.test*.*'],
 };

@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-footer",
-  styleUrl: "lcl-footer.css",
-  shadow: true
+  tag: 'lcl-footer',
+  styleUrl: 'lcl-footer.css',
+  shadow: true,
 })
 export class LclFooter {
   render() {

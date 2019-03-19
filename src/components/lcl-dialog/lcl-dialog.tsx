@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-dialog",
-  styleUrl: "lcl-dialog.css",
-  shadow: true
+  tag: 'lcl-dialog',
+  styleUrl: 'lcl-dialog.css',
+  shadow: true,
 })
 export class LclDialog {
   render() {

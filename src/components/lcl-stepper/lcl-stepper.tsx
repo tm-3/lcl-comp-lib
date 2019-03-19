@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-stepper",
-  styleUrl: "lcl-stepper.css",
-  shadow: true
+  tag: 'lcl-stepper',
+  styleUrl: 'lcl-stepper.css',
+  shadow: true,
 })
 export class LclStepper {
   render() {

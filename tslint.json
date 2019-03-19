@@ -12,7 +12,7 @@
     "object-literal-sort-keys": false,
     "no-consecutive-blank-lines": false,
     "no-console": false,
-    // "no-unused-variable": false,
+    "no-unused-variable": false,
     "member-access": [true, "no-public"]
   }
 }

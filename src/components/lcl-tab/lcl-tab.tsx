@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-tab",
-  styleUrl: "lcl-tab.css",
-  shadow: true
+  tag: 'lcl-tab',
+  styleUrl: 'lcl-tab.css',
+  shadow: true,
 })
 export class LclTab {
   render() {

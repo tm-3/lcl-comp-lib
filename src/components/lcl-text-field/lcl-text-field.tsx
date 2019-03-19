@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-text-field",
-  styleUrl: "lcl-text-field.css",
-  shadow: true
+  tag: 'lcl-text-field',
+  styleUrl: 'lcl-text-field.css',
+  shadow: true,
 })
 export class LclTextField {
   render() {

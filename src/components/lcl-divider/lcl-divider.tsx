@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-divider",
-  styleUrl: "lcl-divider.css",
-  shadow: true
+  tag: 'lcl-divider',
+  styleUrl: 'lcl-divider.css',
+  shadow: true,
 })
 export class LclDivider {
   render() {

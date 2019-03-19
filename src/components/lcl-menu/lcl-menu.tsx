@@ -1,9 +1,9 @@
-import { Component } from "@stencil/core";
+import { Component } from '@stencil/core';
 
 @Component({
-  tag: "lcl-menu",
-  styleUrl: "lcl-menu.css",
-  shadow: true
+  tag: 'lcl-menu',
+  styleUrl: 'lcl-menu.css',
+  shadow: true,
 })
 export class LclMenu {
   render() {
