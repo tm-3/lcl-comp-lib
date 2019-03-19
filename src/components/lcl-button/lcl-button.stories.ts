@@ -1,18 +1,19 @@
-import { storiesOf } from '@storybook/html';
+import { storiesOf, forceReRender } from '@storybook/html';
 import { withKnobs, text } from '@storybook/addon-knobs';
 // import { action } from '@storybook/addon-actions';
 
 // import { LclButton } from '../../components/lcl-button/lcl-button';
 
-const buttonText = text('Label', 'BUTTON');
+const bt = text('Label', 'BUTTON 1');
 const iconName = text('Icon Name', 'magnet');
 
 const stories = storiesOf('UI|Inputs/Buttons', module);
 stories.addDecorator(withKnobs);
 stories
   .add('LCL Button - Default', () => {
+    forceReRender();
     return `<lcl-button icon-name=${iconName}>
-      ${buttonText}
+      ${bt}
         </lcl-button>`;
   })
   .add('LCL Button - Outline', () => {
@@ -25,8 +26,8 @@ stories
     // const el: LclButton = document.createElement('lcl-button');
     // el.render();
 
-    return `<lcl-button>${buttonText}</lcl-button>`;
+    return `<lcl-button>${bt}</lcl-button>`;
   })
   .add('LCL Button - All Options', () => {
-    return `<lcl-button>${buttonText}</lcl-button>`;
+    return `<lcl-button>${bt}</lcl-button>`;
   });

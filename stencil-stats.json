@@ -19,11 +19,6 @@
   },
   "components": [
     {
-      "tag": "lcl-app",
-      "dependencies": [],
-      "dependencyOf": []
-    },
-    {
       "tag": "lcl-button",
       "dependencies": [
         "ion-icon"
@@ -36,6 +31,11 @@
       "dependencyOf": [
         "lcl-button"
       ]
+    },
+    {
+      "tag": "lcl-app",
+      "dependencies": [],
+      "dependencyOf": []
     },
     {
       "tag": "lcl-card",
@@ -210,33 +210,6 @@
   ],
   "entries": [
     {
-      "entryId": "entry.lcl-app",
-      "components": [
-        {
-          "tag": "lcl-app",
-          "dependencies": [],
-          "dependencyOf": []
-        }
-      ],
-      "bundles": [
-        {
-          "fileName": "lcl-app.entry.js",
-          "outputs": [
-            "dist/lcl/lcl-app.entry.js",
-            "www/build/lcl/lcl-app.entry.js"
-          ],
-          "size": 345,
-          "target": "es2017"
-        }
-      ],
-      "inputs": [
-        "src/components/lcl-app/lcl-app.js"
-      ],
-      "encapsulations": [
-        "shadow"
-      ]
-    },
-    {
       "entryId": "entry.lcl-button.ion-icon",
       "components": [
         {
@@ -268,6 +241,33 @@
       "inputs": [
         "node_modules/ionicons/dist/collection/icon/icon.js",
         "src/components/lcl-button/lcl-button.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-app",
+      "components": [
+        {
+          "tag": "lcl-app",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-app.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-app.entry.js",
+            "www/build/lcl/lcl-app.entry.js"
+          ],
+          "size": 345,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-app/lcl-app.js"
       ],
       "encapsulations": [
         "shadow"
@@ -1195,26 +1195,6 @@
   "rollupResults": {
     "modules": [
       {
-        "id": "entry.lcl-app.js",
-        "isEntry": true,
-        "imports": [],
-        "exports": [
-          "LclApp"
-        ],
-        "modules": [
-          {
-            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-app/lcl-app.js",
-            "exports": [
-              "LclApp"
-            ]
-          },
-          {
-            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-app.js",
-            "exports": []
-          }
-        ]
-      },
-      {
         "id": "entry.lcl-button.ion-icon.js",
         "isEntry": true,
         "imports": [],
@@ -1248,6 +1228,26 @@
           },
           {
             "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-button.ion-icon.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-app.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclApp"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-app/lcl-app.js",
+            "exports": [
+              "LclApp"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-app.js",
             "exports": []
           }
         ]
